@@ -23,7 +23,7 @@ export class AddBookComponent implements OnInit {
       .subscribe(
         (data: Book) => console.log(data),
         (err: any) => console.log(err)
-      )
+      );
   }
 
 }
